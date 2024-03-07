@@ -130,19 +130,33 @@ main{
     flex-direction: column;
     gap: 20px;
 }
-
-.article-3{
-    padding: 90px 50px;
+.article-2-img{
     display: flex;
-    gap: 70px;
-    width: auto;
-    justify-items: center;
-    align-content: center;
+    width: 50%;
+    justify-content: center;
     margin: auto;
 }
-.article-3 img{
-    width: 60%;
-    
+.flex-list-2{
+    display: flex;
+    padding: 100px 100px;
+    width: 100%;
+    margin: 50px;
+}
+
+.flex-data{
+    padding: 60px;
+}
+.flex-data img{
+    padding-bottom: 40px;
+}
+.article-3{
+    padding: 10% 10%;
+    display: flex;
+    width: 100%;
+    gap: 70px;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
 }
 
 .article-4{
